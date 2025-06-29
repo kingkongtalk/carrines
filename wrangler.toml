@@ -1,4 +1,4 @@
-name = "carrines-2"
+name = "carrines"
 compatibility_date = "2025-06-29"
 main = "src/index.ts"
 
