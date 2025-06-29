@@ -2,13 +2,4 @@ name = "carrines-2"
 compatibility_date = "2025-06-29"
 
 [build]
-command = "bun run build"
-
-[site]
-bucket = "out"
-
-[env.production]
-name = "carrines-2"
-
-[env.production.vars]
-NODE_ENV = "production" 
+command = "npm run build" 
