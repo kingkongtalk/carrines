@@ -1,9 +1,0 @@
-name = "carrines-2"
-compatibility_date = "2025-06-29"
-main = "src/index.ts"
-
-[build]
-command = "npm run build"
-
-[assets]
-directory = "out" 
