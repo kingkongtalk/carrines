@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0 --turbopack",
-    "build": "next build",
+    "build": "next build && cp public/_redirects out/_redirects",
     "start": "next start",
     "lint": "bunx biome lint --write && bunx tsc --noEmit",
     "format": "bunx biome format --write",
-    "deploy": "bun run build"
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.3.2",
